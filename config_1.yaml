@@ -1,0 +1,92 @@
+model:
+  d_fft: 1024
+  d_model: 512
+  dropout: 0.1
+  heads: 4
+  layers: 6
+  type: transformer
+paths:
+  checkpoint_dir: checkpoints
+  data_dir: datasets
+preprocessing:
+  char_repeats: 3
+  languages:
+  - ne
+  - en_us
+  lowercase: true
+  n_val: 5000
+  phoneme_symbols:
+  - oj
+  - jhh
+  - ojn
+  - ng
+  - aaj
+  - jh
+  - ew
+  - aan
+  - aawn
+  - own
+  - r
+  - axn
+  - h
+  - in
+  - axw
+  - un
+  - ax
+  - i
+  - u
+  - b
+  - k
+  - en
+  - axj
+  - e
+  - s
+  - axwn
+  - l
+  - g
+  - tth
+  - o
+  - y
+  - ph
+  - dd
+  - axjn
+  - aaw
+  - t
+  - aa
+  - th
+  - nn
+  - kh
+  - gh
+  - m
+  - p
+  - n
+  - ow
+  - tsh
+  - d
+  - aajn
+  - bh
+  - tt
+  - w
+  - dh
+  - ddh
+  - ts
+  - null
+  text_symbols: "abcdefghijklmnopqrstuvwxyzH\u0906\u094D\u0916\u0949\u0927\u093E\u0960\
+    \u0917\u0901\u0921\u0937\u090A\u091F\u0922\u090B\u090F\u0923\u0939\u0929\u0930\
+    \u0903\u091A\u092C\u0926\u0908\u093F\u0902\u0928\u0924\u0918\u092E\u0925\u0931\
+    \u0950\u0932\u0920\u091B\u0910\u0947\u092F\u0943\u094C\u0935\u0936\u091C\u094B\
+    \ \u0948\u091D\u0938\u0914\u0941\u0909\u0919\u0905\u092B\u091E\u094A\u092A\u092D\
+    \u0915\u0942\u0940\u0907\u0913\u0967\u0969\u096B\u200D\u200C"
+training:
+  batch_size: 32
+  batch_size_val: 32
+  checkpoint_steps: 100000
+  epochs: 10
+  generate_steps: 500
+  learning_rate: 0.0001
+  n_generate_samples: 10
+  scheduler_plateau_factor: 0.5
+  scheduler_plateau_patience: 10
+  store_phoneme_dict_in_model: true
+  validate_steps: 500
+  warmup_steps: 100
