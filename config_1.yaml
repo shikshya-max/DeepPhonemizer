@@ -2,7 +2,7 @@ model:
   d_fft: 1024
   d_model: 512
   dropout: 0.1
-  heads: 5
+  heads: 4
   layers: 6
   type: transformer
 paths:
