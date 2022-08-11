@@ -12,8 +12,7 @@ preprocessing:
   char_repeats: 3
   languages:
   - ne
-  - en_us
-  lowercase: true
+  # lowercase: true
   n_val: 5000
   phoneme_symbols:
   - n
@@ -90,4 +89,5 @@ training:
   scheduler_plateau_patience: 10
   store_phoneme_dict_in_model: true
   validate_steps: 500
+  test_steps: 500
   warmup_steps: 100
