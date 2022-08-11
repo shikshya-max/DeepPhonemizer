@@ -16,67 +16,68 @@ preprocessing:
   lowercase: true
   n_val: 5000
   phoneme_symbols:
-  - oj
-  - jhh
-  - ojn
-  - ng
-  - aaj
-  - jh
-  - ew
-  - aan
-  - aawn
-  - own
-  - r
-  - axn
-  - h
-  - in
-  - axw
-  - un
-  - ax
-  - i
-  - u
-  - b
-  - k
-  - en
-  - axj
-  - e
-  - s
-  - axwn
-  - l
-  - g
-  - tth
-  - o
-  - y
-  - ph
-  - dd
-  - axjn
-  - aaw
-  - t
-  - aa
-  - th
-  - nn
-  - kh
-  - gh
-  - m
-  - p
   - n
-  - ow
-  - tsh
-  - d
-  - aajn
-  - bh
-  - tt
+  - aaw
+  - own
+  - en
   - w
+  - nn
+  - l
+  - s
+  - ojn
+  - ew
+  - axwn
+  - g
+  - r
+  - aaj
+  - gh
+  - tsh
+  - m
+  - ow
+  - h
+  - axn
+  - in
+  - ng
+  - un
+  - aajn
+  - axjn
+  - tth
+  - bh
   - dh
+  - k
+  - jh
+  - th
+  - b
+  - jhh
+  - aa
+  - ph
+  - y
+  - axw
+  - oj
+  - u
+  - i
+  - tt
   - ddh
+  - ax
+  - p
   - ts
+  - axj
+  - dd
+  - aan
+  - o
+  - aawn
+  - ae
+  - e
+  - kh
+  - d
+  - t
   - null
-  text_symbols: "abcdefghijklmnopqrstuvwxyzH\u0906\u094D\u0916\u0949\u0927\u093E\u0960\
-    \u0917\u003A\u0901\u0921\u0937\u090A\u091F\u0922\u090B\u090F\u0923\u0939\u0929\u0930\
-    \u0903\u091A\u092C\u0926\u0908\u093F\u0902\u0928\u0924\u0918\u092E\u0925\u0931\
-    \u0950\u0932\u0920\u091B\u0910\u0947\u092F\u0943\u094C\u0935\u0936\u091C\u094B\
-    \ \u0948\u091D\u0938\u0914\u0941\u0909\u0919\u0905\u092B\u091E\u094A\u092A\u092D\
-    \u0915\u0942\u0940\u0907\u0913\u0967\u0969\u096B\u200D\u200C"
+  text_symbols: " \u0907\u0949\u0918\u0935\u094C\u0967\u0932\u0943\u0913\u0937\u091F\
+    \u091B\u0922\u092C\u092D\u0919\u0903\u0938\u200C\u094A\u0909\u0925\u0930\u090B\
+    \u0908\u094D\u093E\u093F\u0906\u200D\u090A\u092E\u0936\u0941\u092B\u0926\u0910\
+    \u091E\u0931\u0923\u0927\u0901\u0916\u0948\u0950\u0914\u0947\u0915\u0920\u0969\
+    \u0917\u0905\u0902\u090F\u0924\u0960\u091C\u091A\u092A\u0940\u0929\u091D\u0928\
+    \u0942\u0939\u092F\u0921\u096B\u094B"
 training:
   batch_size: 32
   batch_size_val: 32
