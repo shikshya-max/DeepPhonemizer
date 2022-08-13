@@ -11,73 +11,76 @@ paths:
 preprocessing:
   char_repeats: 3
   languages:
-  - ne
-  - hi_ur
+    - en-us
   lowercase: true
   n_val: 5000
   phoneme_symbols:
-  - n
-  - aaw
-  - own
-  - en
-  - w
-  - nn
-  - l
-  - s
-  - ojn
-  - ew
-  - axwn
-  - g
-  - r
-  - aaj
-  - gh
-  - tsh
-  - m
-  - ow
-  - h
-  - axn
-  - in
-  - ng
-  - un
-  - aajn
-  - axjn
-  - tth
-  - bh
-  - dh
-  - k
-  - jh
-  - th
-  - b
-  - jhh
-  - aa
-  - ph
-  - y
-  - axw
-  - oj
-  - u
-  - i
-  - tt
-  - ddh
-  - ax
-  - p
-  - ts
-  - axj
-  - dd
-  - aan
-  - o
-  - aawn
-  - ae
-  - e
-  - kh
-  - d
-  - t
-  - null
-  text_symbols: " \u0907\u0949\u0918\u0935\u094C\u0967\u0932\u0943\u0913\u0937\u091F\
-    \u091B\u0922\u092C\u092D\u0919\u0903\u0938\u200C\u094A\u0909\u0925\u0930\u090B\
-    \u0908\u094D\u093E\u093F\u0906\u200D\u090A\u092E\u0936\u0941\u092B\u0926\u0910\
-    \u091E\u0931\u0923\u0927\u0901\u0916\u0948\u0950\u0914\u0947\u0915\u0920\u0969\
-    \u0917\u0905\u0902\u090F\u0924\u0960\u091C\u091A\u092A\u0940\u0929\u091D\u0928\
-    \u0942\u0939\u092F\u0921\u096B\u094B"
+    - a
+    - j
+    - x
+    - n
+    - aaw
+    - own
+    - en
+    - w
+    - nn
+    - l
+    - s
+    - ojn
+    - ew
+    - axwn
+    - g
+    - r
+    - aaj
+    - gh
+    - tsh
+    - m
+    - ow
+    - h
+    - axn
+    - in
+    - ng
+    - un
+    - aajn
+    - axjn
+    - tth
+    - bh
+    - dh
+    - k
+    - jh
+    - th
+    - b
+    - jhh
+    - aa
+    - ph
+    - y
+    - axw
+    - oj
+    - u
+    - i
+    - tt
+    - ddh
+    - ax
+    - p
+    - ts
+    - axj
+    - dd
+    - aan
+    - o
+    - aawn
+    - ae
+    - e
+    - kh
+    - d
+    - t
+    - null
+  text_symbols:
+    " \u0907\u0949\u0918\u0935\u094C\u0967\u0932\u0943\u0913\u0937\u091F\
+    \u091B\u0922\u092C\u092D\u0919\u0903\u0938\u094A\u0909\u0925\u0930\u090B\u0908\
+    \u094D\u093E\u093F\u0906\u090A\u092E\u0936\u0941\u092B\u0926\u0910\u091E\u0931\
+    \u0923\u0927\u0901\u0916\u0948\u0950\u0914\u0947\u0915\u0920\u0969\u0917\u0905\
+    \u0902\u090F\u0924\u0960\u091C\u091A\u092A\u0940\u0929\u091D\u0928\u0942\u0939\
+    \u092F\u0921\u096B\u094B"
 training:
   batch_size: 32
   batch_size_val: 32
@@ -89,6 +92,6 @@ training:
   scheduler_plateau_factor: 0.5
   scheduler_plateau_patience: 10
   store_phoneme_dict_in_model: true
-  validate_steps: 500
   test_steps: 500
+  validate_steps: 500
   warmup_steps: 100
