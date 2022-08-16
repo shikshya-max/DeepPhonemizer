@@ -11,7 +11,7 @@ paths:
 preprocessing:
   char_repeats: 3
   languages:
-  - ne
+  - en-us
   lowercase: true
   n_val: 5000
   phoneme_symbols:
