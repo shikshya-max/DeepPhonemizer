@@ -1,7 +1,7 @@
 model:
   d_fft: 1024
   d_model: 512
-  dropout: 0.1
+  dropout: 0.1  
   heads: 4
   layers: 6
   type: transformer
@@ -11,72 +11,60 @@ paths:
 preprocessing:
   char_repeats: 3
   languages:
-  - ne
   - en-us
   lowercase: true
   n_val: 5000
   phoneme_symbols:
-  - axw
-  - axn
-  - dd
-  - th
-  - s
-  - y
-  - ph
-  - kh
-  - n
-  - b
-  - tth
-  - in
-  - d
-  - dh
-  - un
-  - axjn
-  - aaw
-  - m
-  - tt
-  - u
-  - t
-  - ojn
-  - ts
-  - bh
-  - aa
-  - e
-  - aan
-  - jhh
-  - axwn
-  - w
-  - ow
-  - r
-  - g
-  - k
-  - aaj
-  - aajn
-  - l
-  - p
-  - tsh
-  - axj
-  - gh
-  - ddh
-  - jh
-  - aawn
-  - ew
-  - ax
-  - ng
-  - nn
-  - own
-  - oj
-  - h
-  - en
-  - i
-  - o
-  - null
-  text_symbols: "\u0948\u0914\u092E\u0915\u0927\u091F\u0938\u092A\u0918\u0935\u0936\
-    \u0947\u094C\u0949\u090A\u090F\u0937\u0932\u0926\u0919\u092B\u0907\u0922\u0920\
-    \u092F\u0917\u0940\u0913\u0967\u0905\u0925\u094D\u091A\u0921\u0939\u0903\u094A\
-    \u0931\u0950\u0910\u091E\u094B\u092C\u091C\u0941\u0969\u0901\u0916\u091B\u0928\
-    \u092D\u0943\u0902\u0906\u0960\u093E\u0908\u0923\u0924\u0929\u093F\u091D\u0909\
-    \u090B\u0930\u0942\u200C\u200D "
+  -au
+  - bha  
+  - aa  
+  - ra  
+  - na  
+  - ga  
+  - ah  
+  - ii  
+  - kha  
+  - pha  
+  - Ta  
+  - ha  
+  - chhya  
+  - sa  
+  - gyah  
+  - an  
+  - ahDa  
+  - tha  
+  - ba  
+  - sha  
+  - trah  
+  - e  
+  - Dha  
+  - Sa  
+  - da  
+  - nga  
+  - gha  
+  - ri  
+  - dha  
+  - Da  
+  - chha  
+  - pa  
+  - ma  
+  - ya  
+  - aah  
+  - la  
+  - i  
+  - wa  
+  - ai  
+  - ja  
+  - cha  
+  - jha  
+  - oo  
+  - ka  
+  - u  
+  - o  
+  - ta  
+  - Tha  
+  - 
+  text_symbols: "खफडःघकआजवचएषऔटऋसञंशओपनठदधअतमढ्रणबभझहयङथउऐइगईलछऊ" 
 training:
   batch_size: 32
   batch_size_val: 32
