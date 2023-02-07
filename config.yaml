@@ -15,7 +15,7 @@ preprocessing:
   lowercase: true
   n_val: 5000
   phoneme_symbols:
-  -au
+  - au
   - bha  
   - aa  
   - ra  
