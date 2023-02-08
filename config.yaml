@@ -64,7 +64,7 @@ preprocessing:
   - ta  
   - Tha  
   - 
-  text_symbols: "खफडःघकआजवचएषऔटऋसञंशओपनठदधअतमढ्रणबभझहयङथउऐइगईलछऊ" 
+  text_symbols: "aDhtrgukjyncSTsmwiolbped खफडःघकआजवचएषऔटऋसञंशओपनठदधअतमढ्रणबभझहयङथउऐइगईलछऊ" 
 training:
   batch_size: 32
   batch_size_val: 32
