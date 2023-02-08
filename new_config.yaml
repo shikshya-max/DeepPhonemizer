@@ -8,8 +8,8 @@ preprocessing:
 
   # Text (grapheme) and phoneme symbols, either provide a string or list of strings.
   # Symbols in the dataset will be filtered according to these lists!
-  text_symbols: 'aDhtrgukjyncSTsmwiolbpedखफडःघकआजवचएषऔटऋसञंशओपनठदधअतमढ्रणबभझहयङथउऐइगईलछऊ'
-  phoneme_symbols: ['Dha', 'trah', 'gha', 'u', 'ka', 'jha', 'ya', 'ra', 'nga', 'Da', 'na', 'cha', 'gyah', 'Sa', 'aah', 'Ta', 'ha', 'sa', 'an', 'ma', 'wa', 'ga', 'ahDa', 'ri', 'kha', 'ta', 'sha', 'oo', 'Tha', 'chhya', 'ai', 'la', 'ii', 'bha', 'ja', 'chha', 'pha', 'aa', 'tha', 'ba', 'e', 'ah', 'da', 'pa', 'au', 'i', 'dha', 'o']
+  text_symbols: 'aDhtrgukjyncSTsmwiolbpedखफडःघकआजवचएषऔटऋसञंशओपनठदधअतमढ्रणबभझहयङथउऐइगईलछऊ '
+  phoneme_symbols: ['Dha', 'trah', 'gha', 'u', 'ka', 'jha', 'ya', 'ra', 'nga', 'Da', 'na', 'cha', 'gyah', 'Sa', 'aah', 'Ta', 'ha', 'sa', 'an', 'ma', 'wa', 'ga', 'ahDa', 'ri', 'kha', 'ta', 'sha', 'oo', 'Tha', 'chhya', 'ai', 'la', 'ii', 'bha', 'ja', 'chha', 'pha', 'aa', 'tha', 'ba', 'e', 'ah', 'da', 'pa', 'au', 'i', 'dha', 'o',' ']
   char_repeats: 3                # Number of grapheme character repeats to allow for mapping to longer phoneme sequences.
                                  # Set to 1 for autoreg_transformer.
   lowercase: true                # Whether to lowercase the grapheme input.
